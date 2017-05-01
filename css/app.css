@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  background-color: #f5f8ff;
+}
+body {
+  color: #fff;
+  text-align: center;
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+}
+
+.navbar {
+    background-color: #fff;
+    border-radius: 0;
+    border-color: #d0d3d5;
+}
+
+.navbar-header {
+    position: absolute;
+    left: 50%;
+}
+
+.container-fluid .navbar-header .navbar-brand {
+    margin-left: -52px;
+}
+
+.nav {
+    font-size: 16px;
+}
+
+.navbar-right {
+    margin-right: auto;
+}
+
+.nav a {
+    margin-right: 10px;
+}
+
+.nav.navbar-nav.navbar-right {
+    padding-right: 15px;
+}
