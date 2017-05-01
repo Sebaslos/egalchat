@@ -1,3 +1,10 @@
+// jquery
+$(document).ready(function(){
+    // $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="popover"]').popover();
+});
+
+// vue
 var app = new Vue({
     el: '#app',
     data: {
